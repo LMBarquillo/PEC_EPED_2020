@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c97ff12-99a7-4561-9e74-337bcd41d042" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1baQvhFPnUIYGnVolkmpEo3GPzf" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/es/uned/lsi/eped/DataStructures" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ITI\Asignaturas\1.2. Estrategias de Programación y Estructuras de Datos\PEC 2019-2020\EPED2019_2020\src\es\uned\lsi\eped\DataStructures" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c97ff12-99a7-4561-9e74-337bcd41d042" name="Default Changelist" comment="" />
+      <created>1588867956601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588867956601</updated>
+      <workItem from="1588867958042" duration="30000" />
+      <workItem from="1588954619106" duration="7217000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1588955589402">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1588955589402" />
+  </component>
+</project>
