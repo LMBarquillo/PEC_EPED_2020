@@ -26,7 +26,7 @@ public class WordList {
 		if(list == null) {
 			list = new WordListN(word.length());
 			int pos = 1;
-			while (wordList.size() > 0 && wordList.size() >= pos && wordList.get(pos).getWordSize() < word.length()) {
+			while (wordList.size() > 0 && wordList.size() >= pos && wordList.get(pos).getWordSize() > word.length()) {
 				pos++;
 			}
 			wordList.insert(pos, list);
