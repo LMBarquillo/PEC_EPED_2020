@@ -19,8 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c97ff12-99a7-4561-9e74-337bcd41d042" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/WordList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/WordList.java" afterDir="false" />
+    <list default="true" id="5c97ff12-99a7-4561-9e74-337bcd41d042" name="Default Changelist" comment="Corrección del orden de almacenamiento.">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/LetterNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/LetterNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/RootNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/RootNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/WordNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/WordNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +43,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/es/uned/lsi/eped/DataStructures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../workspaceIntelliJ/Demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -60,8 +66,17 @@
       <option name="presentableId" value="Default" />
       <updated>1588867956601</updated>
       <workItem from="1588867958042" duration="30000" />
-      <workItem from="1588954619106" duration="9279000" />
+      <workItem from="1588954619106" duration="10163000" />
+      <workItem from="1589561834740" duration="3959000" />
     </task>
+    <task id="LOCAL-00001" summary="Corrección del orden de almacenamiento.">
+      <created>1588964344392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588964344392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,11 +92,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Corrección del orden de almacenamiento." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrección del orden de almacenamiento." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1588955589402">
+    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1589563091153">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1588955589402" />
+    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589563091153" />
+    <state x="418" y="89" key="CommitChangelistDialog2" timestamp="1588965124882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="418" y="89" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588965124882" />
+    <state x="2338" y="89" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1588964343422" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1589561879365">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589561879365" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588965119378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588965119378" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1588964346330" />
   </component>
 </project>
