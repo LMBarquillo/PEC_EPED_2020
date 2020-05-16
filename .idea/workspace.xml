@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c97ff12-99a7-4561-9e74-337bcd41d042" name="Default Changelist" comment="Corrección del orden de almacenamiento.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5c97ff12-99a7-4561-9e74-337bcd41d042" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/LetterNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/LetterNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/RootNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/RootNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/WordNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/WordNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../workspaceIntelliJ/Demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -67,7 +64,9 @@
       <updated>1588867956601</updated>
       <workItem from="1588867958042" duration="30000" />
       <workItem from="1588954619106" duration="10163000" />
-      <workItem from="1589561834740" duration="3959000" />
+      <workItem from="1589561834740" duration="5492000" />
+      <workItem from="1589625620426" duration="613000" />
+      <workItem from="1589631059877" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="Corrección del orden de almacenamiento.">
       <created>1588964344392</created>
@@ -76,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588964344392</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementar RootNode, WordNode y LetterNode y el método insertInTree() del diccionario">
+      <created>1589568914057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589568914057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,26 +104,36 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Corrección del orden de almacenamiento." />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrección del orden de almacenamiento." />
+    <MESSAGE value="Implementar RootNode, WordNode y LetterNode y el método insertInTree() del diccionario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar RootNode, WordNode y LetterNode y el método insertInTree() del diccionario" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1589563091153">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589563091153" />
-    <state x="418" y="89" key="CommitChangelistDialog2" timestamp="1588965124882">
+    <state x="663" y="97" key="CommitChangelistDialog2" timestamp="1589568912763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="418" y="89" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588965124882" />
-    <state x="2338" y="89" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1588964343422" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1589561879365">
+    <state x="663" y="97" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589568912763" />
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1589570892009">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589561879365" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588965119378">
+    <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589570892009" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589631374178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589631374178" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589561879365" />
+    <state x="2532" y="157" key="SettingsEditor" timestamp="1589631102749">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2532" y="157" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589631102749" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589568916667">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588965119378" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1588964346330" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589568916667" />
   </component>
 </project>

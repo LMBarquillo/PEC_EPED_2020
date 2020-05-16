@@ -46,7 +46,9 @@ public class Dictionary {
 				if(children.size() == 0) {
 					children.insert(1, child);
 				} else {
-					while(((LetterNode) children.get(pos).getRoot()).getLetter() < word.charAt(0)) pos++;
+					for(int i=1; i<=children.size(); i++) {
+						if(((LetterNode) children.get(pos).getRoot()).getLetter() < word.charAt(0)) pos++;
+					}
 					children.insert(pos, child);
 				}
 			}
@@ -62,8 +64,28 @@ public class Dictionary {
 	}
 	
 	/* Método privado llamado por el anterior */
-	private void searchInTree(String sequence, String word,
-							  GTreeIF<Node> node, WordList salida) {...}
+	private void searchInTree(String sequence, String word, GTreeIF<Node> node, WordList salida) {
+		// Por cada uno de mis hijos...
+		for(int i=1; i<=node.getChildren().size(); i++) {
+			GTreeIF<Node> child = node.getChild(i);
+			if(child.getRoot().getNodeType() == Node.NodeType.WORDNODE) {
+				// Si es WordNode, hemos terminado una palabra
+				salida.add(word);
+			} else {
+				// Si no lo es, compruebo si la letra que representa coincide con alguna de las de la secuencia
+				if(sequence.length() > 0) {
+					int pos = sequence.indexOf(((LetterNode) child.getRoot()).getLetter());
+					if(pos >= 0) {
+						// Si encontramos coincidencia, hacemos recursiva, restando la letra de la secuencia y sumándola a la palabra
+						searchInTree(new StringBuilder(sequence).deleteCharAt(pos).toString(),
+									 String.format("%s%c", word, sequence.charAt(pos)),
+									 child,
+									 salida);
+					}
+				}
+			}
+		}
+	}
 	
 	/* Método público de búsqueda de todas las palabras de tamaño size a partir de una secuencia */
 	public WordListN search(String sequence, int size) {
