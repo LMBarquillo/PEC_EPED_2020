@@ -96,8 +96,25 @@ public class Dictionary {
 	}
 	
 	/* Método privado llamado por el anterior */
-	private void searchInTreeN(String sequence, String word,
-							   GTreeIF<Node> node, WordListN salida,
-							   int size) {...}
+	private void searchInTreeN(String sequence, String word, GTreeIF<Node> node, WordListN salida, int size) {
+		for(int i=1; i<=node.getChildren().size(); i++) {
+			GTreeIF<Node> child = node.getChild(i);
+			if(child.getRoot().getNodeType() == Node.NodeType.WORDNODE) {
+				if(salida.getWordSize() == word.length()) salida.add(word);
+			} else {
+				// Aquí también comprobamos si la palabra ya excede del tamaño de size. De ser así, no seguimos.
+				if(sequence.length() > 0 && word.length() <= size) {
+					int pos = sequence.indexOf(((LetterNode) child.getRoot()).getLetter());
+					if(pos >= 0) {
+						searchInTreeN(new StringBuilder(sequence).deleteCharAt(pos).toString(),
+									  String.format("%s%c", word, sequence.charAt(pos)),
+									  child,
+									  salida,
+									  size);
+					}
+				}
+			}
+		}
+	}
 	
 }
