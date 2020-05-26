@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EPED2019_2020:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EPED2019_2020_jar</output-path>
+    <root id="archive" name="EPED2019_2020.jar">
+      <element id="module-output" name="EPED2019_2020" />
+    </root>
+  </artifact>
+</component>

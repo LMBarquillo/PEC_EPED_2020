@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="EPED2019_2020:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,29 +24,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c97ff12-99a7-4561-9e74-337bcd41d042" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Compile_Run_Test_2020_V.08.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Compile_Run_Test_2020_V.08.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/lib/Comparator.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/lib/Modifier.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/lib/TAD_modified.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/pruebas/BusquedasEstudiantes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/pruebas/DiccionarioEsp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/salida/SalidaBusquedasEsperada.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/Dictionary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/Node$NodeType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/WordList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/LetterNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/RootNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/WordList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/WordListN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/WordNode.java" afterDir="false" />
+    <list default="true" id="5c97ff12-99a7-4561-9e74-337bcd41d042" name="Default Changelist" comment="Añadidos ficheros de la batería de pruebas y testeado OK!">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EPED2019_2020_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/WordListN.class" beforeDir="false" afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/WordListN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/WordListN.java" beforeDir="false" afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/WordListN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/WordListN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/WordListN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +38,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1baQvhFPnUIYGnVolkmpEo3GPzf" />
@@ -69,6 +62,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
@@ -103,7 +99,11 @@
       <workItem from="1589777844175" duration="677000" />
       <workItem from="1589817142948" duration="1137000" />
       <workItem from="1589864323794" duration="54000" />
-      <workItem from="1589907499353" duration="1172000" />
+      <workItem from="1589907499353" duration="5370000" />
+      <workItem from="1589950814757" duration="415000" />
+      <workItem from="1589991634146" duration="3579000" />
+      <workItem from="1590037244313" duration="58000" />
+      <workItem from="1590506774101" duration="1217000" />
     </task>
     <task id="LOCAL-00001" summary="Corrección del orden de almacenamiento.">
       <created>1588964344392</created>
@@ -140,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589907804652</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Añadidos ficheros de la batería de pruebas y testeado OK!">
+      <created>1589908725296</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589908725296</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,43 +174,61 @@
     <MESSAGE value="Corregido error en el insert y creado searchInTree." />
     <MESSAGE value="Corregido error en el insert (Part II)" />
     <MESSAGE value="Añadido método searchInTreeN" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido método searchInTreeN" />
+    <MESSAGE value="Añadidos ficheros de la batería de pruebas y testeado OK!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidos ficheros de la batería de pruebas y testeado OK!" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589907842687">
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590506944563">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589907842687" />
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590506944563" />
     <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1589563091153">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589563091153" />
-    <state x="2609" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589907830554">
+    <state x="2609" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589995614440">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2609" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589907830554" />
-    <state x="663" y="97" key="CommitChangelistDialog2" timestamp="1589907803575">
+    <state x="2609" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589995614440" />
+    <state x="83" y="18" width="1738" height="1011" key="CommitChangelistDialog2" timestamp="1590507977098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2206" y="94" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589632043207" />
-    <state x="663" y="97" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589907803575" />
+    <state x="2206" y="94" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589908722786" />
+    <state x="83" y="18" width="1738" height="1011" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590507977098" />
     <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1589570892009">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589570892009" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589864369381">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1590037300625">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589951196585" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590037300625" />
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1589916475564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589864369381" />
-    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589561879365" />
-    <state x="2532" y="157" key="SettingsEditor" timestamp="1589631102749">
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589916475564" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1589916475563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589916475563" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1589916475563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589916475563" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1589916475563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589916475563" />
+    <state x="2532" y="157" key="SettingsEditor" timestamp="1589995640133">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2532" y="157" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589631102749" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589908227098">
+    <state x="2532" y="157" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589995640133" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589909180727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589908227098" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589909180727" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589568916667" />
   </component>
 </project>
