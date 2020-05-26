@@ -15,21 +15,7 @@ public class WordListN {
 	}
 	
 	public void add(String word) {
-		// Nos aseguramos de que la palabra cumpla la longitud establecida
-		if(word.length() == wordSize) {
-			if(wordList.size() == 0) {
-				// Si la lista está vacía, insertamos directamente en la posición 1
-				wordList.insert(1, word);
-			} else {
-				// En caso contrario, recorremos la lista, buscando la posición adecuada para respetar el orden alfabético
-				for(int pos=1; pos<=wordList.size()+1; pos++) {
-					if(pos > wordList.size() || wordList.get(pos).compareTo(word) >= 0) {
-						wordList.insert(pos, word);
-						return;
-					}
-				}
-			}
-		}
+		wordList.insert(wordList.size()+1, word);
 	}
 	
 	public int getWordSize() {
