@@ -25,12 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c97ff12-99a7-4561-9e74-337bcd41d042" name="Default Changelist" comment="Añadidos ficheros de la batería de pruebas y testeado OK!">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EPED2019_2020_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/WordListN.class" beforeDir="false" afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/WordListN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/WordListN.java" beforeDir="false" afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/WordListN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/WordListN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/WordListN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/bin/es/uned/lsi/eped/pract2019_2020/Dictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/juego_de_pruebas_2020/tmp/src/es/uned/lsi/eped/pract2019_2020/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPED2019_2020/es/uned/lsi/eped/pract2019_2020/WordListN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EPED2019_2020/es/uned/lsi/eped/pract2019_2020/WordListN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uned/lsi/eped/pract2019_2020/Dictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../workspaceIntelliJ/Demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -104,6 +103,8 @@
       <workItem from="1589991634146" duration="3579000" />
       <workItem from="1590037244313" duration="58000" />
       <workItem from="1590506774101" duration="1217000" />
+      <workItem from="1590598226837" duration="1638000" />
+      <workItem from="1590768860978" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="Corrección del orden de almacenamiento.">
       <created>1588964344392</created>
@@ -199,36 +200,56 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589570892009" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1590037300625">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1590769131116">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589951196585" />
-    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590037300625" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1589916475564">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590769131116" />
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1590768955424">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="260" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589916475564" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1589916475563">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590768955424" />
+    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1590768955424">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="260" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589916475563" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1589916475563">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="338" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590768955424" />
+    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1590768955424">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="260" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589916475563" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1589916475563">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="338" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590768955424" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1590768955424">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="260" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589916475563" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590768955424" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1590768955424">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590768955424" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1590768955424">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590768955424" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1590768955424">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590768955424" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1590768955424">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590768955424" />
     <state x="2532" y="157" key="SettingsEditor" timestamp="1589995640133">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2532" y="157" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589631102749" />
     <state x="2532" y="157" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589995640133" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589909180727">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590508095356">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589909180727" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1589568916667" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1590508095356" />
   </component>
 </project>

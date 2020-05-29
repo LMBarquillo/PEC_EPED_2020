@@ -47,8 +47,13 @@ public class Dictionary {
 					children.insert(1, child);
 				} else {
 					for(int i=1; i<=children.size(); i++) {
-						if(children.get(pos).getRoot().getNodeType() == Node.NodeType.LETTERNODE &&
-								((LetterNode) children.get(pos).getRoot()).getLetter() < word.charAt(0)) pos++;
+						if(children.get(i).getRoot().getNodeType() == Node.NodeType.WORDNODE) {
+							pos++;
+						} else {
+							if(((LetterNode) children.get(i).getRoot()).getLetter() < word.charAt(0)) {
+								pos++;
+							}
+						}
 					}
 					children.insert(pos, child);
 				}
