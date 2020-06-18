@@ -16,8 +16,9 @@ public class WordList {
 		// Buscamos si ya existe una lista para ese tamaño de palabra
 		if(wordList.size() > 0) {
 			for(int pos=1; pos<=wordList.size(); pos++) {
-				if(wordList.get(pos).getWordSize() == word.length()) {
-					list = wordList.get(pos);
+				WordListN wordList = this.wordList.get(pos);
+				if(wordList.getWordSize() == word.length()) {
+					list = wordList;
 				}
 			}
 		}
